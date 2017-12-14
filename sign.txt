@@ -1,0 +1,20 @@
+$ keytool -list -v -keystore "C:\Users\Hp\.android\debug.keystore" -alias androi                                                                                                                ddebugkey -storepass android -keypass android
+Alias name: androiddebugkey
+Creation date: 19-Oct-2017
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: C=US, O=Android, CN=Android Debug
+Issuer: C=US, O=Android, CN=Android Debug
+Serial number: 1
+Valid from: Thu Oct 19 08:50:06 IDT 2017 until: Sat Oct 12 08:50:06 IDT 2047
+Certificate fingerprints:
+         MD5:  37:EE:72:31:C7:A0:98:7C:A4:E3:AC:F3:CA:67:22:8D
+         SHA1: AE:15:16:08:35:18:B5:85:00:B8:E5:BC:0B:5F:E3:9C:71:4A:60:5D
+         SHA256: 48:22:62:E5:65:F0:4A:2A:4D:CD:A6:02:23:F8:A2:6B:25:1B:EE:24:B0:                                                                                                                92:9F:A9:A4:ED:34:20:3B:9A:45:7F
+Signature algorithm name: SHA1withRSA
+Subject Public Key Algorithm: 1024-bit RSA key
+Version: 1
+
+Warning:
+The JKS keystore uses a proprietary format. It is recommended to migrate to PKCS                                                                                                                12 which is an industry standard format using "keytool -importkeystore -srckeyst                                                                                                                ore C:\Users\Hp\.android\debug.keystore -destkeystore C:\Users\Hp\.android\debug                                                                                                                .keystore -deststoretype pkcs12".
